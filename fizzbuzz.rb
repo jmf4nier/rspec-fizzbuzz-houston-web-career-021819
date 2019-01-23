@@ -3,4 +3,8 @@
 
 def fizz_buzz(num)
   if num % 3 == 0 && num % 5 == 0 
-    puts "Fizzbuzz"
+    puts "FizzBuzz"
+  else 
+    puts "Nope"
+  end
+end
